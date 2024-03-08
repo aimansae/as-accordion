@@ -1,9 +1,10 @@
 import './App.css';
+import Accordion from './components/AccordionCard';
 
 function App() {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">Hello</h1>
+      <Accordion/>
     </div>
   );
 }

@@ -59,6 +59,10 @@ Add plugins to prettierrc
 module.exports = {
   plugins: ['prettier-plugin-tailwindcss'],
 }
+
+## [React Icons](https://react-icons.github.io/react-icons/)
+
+    npm install react-icons --save
 ## Github setup
 
 1. Create a local folder and connect it to [Github](https://github.com/)
