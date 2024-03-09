@@ -63,6 +63,24 @@ module.exports = {
 ## [React Icons](https://react-icons.github.io/react-icons/)
 
     npm install react-icons --save
+
+## Troubleshooting
+
+While running tests encoutered error "SyntaxError: Named export 'defaults' not found. The requested module 'ts-jest/presets/index.js' is a CommonJS module, 
+which may not support all module.exports as named exports. 
+CommonJS modules can always be imported via the default export, for example using:
+
+import pkg from 'ts-jest/presets/index.js';
+const { defaults } = pkg;"
+Fixed: turned jest.config.js to jest-setup.ts
+
+add:
+
+import '@testing-library/jest-dom'
+['<rootDir>/jest-setup.js']
+
+## Testing:
+User Event: npm install --save-dev @testing-library/user-event
 ## Github setup
 
 1. Create a local folder and connect it to [Github](https://github.com/)

@@ -1,8 +1,11 @@
 import { render, screen } from '@testing-library/react';
+import '@testing-library/jest-dom';
 import App from './App';
 
-test('h contains a text', () => {
-  render(<App />);
-  const textElement = screen.getByRole('heading', { level: 1 });
-  expect(textElement.textContent).toBe('Hello');
+describe('App renders', () => {
+  test('Accordion component render correctly', () => {
+    render(<App />);
+
+    expect(screen.getByTestId('accordion-component')).toBeInTheDocument();
+  });
 });
