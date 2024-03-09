@@ -3,7 +3,7 @@
 This is a siple accordion project made with react.
 Please find the Guidelines for the project:
 
-This is the [live](https://master--as-accordion.netlify.app/) site
+This is the [live](https://as-accordion.netlify.app/) site
 
 Here is the link to the [Github repository](https://github.com/aimansae/as-accordion)
 
