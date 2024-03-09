@@ -20,9 +20,11 @@
 .question-container {
   @apply flex items-center border border-gray-300 bg-gray-100 px-4 py-4;
 }
+
 .icon {
   @apply mr-2 transform cursor-pointer text-xl text-gray-500 transition-transform duration-300 hover:scale-125;
 }
+
 .answer-container {
   @apply border border-gray-300 px-4 py-4;
 }

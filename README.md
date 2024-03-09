@@ -3,6 +3,10 @@
 This is a siple accordion project made with react.
 Please find the Guidelines for the project:
 
+This is the [live](https://master--as-accordion.netlify.app/) site
+
+Here is the link to the [Github repository](https://github.com/aimansae/as-accordion)
+
 ## Requirements
 
 1. Use the starter project, to kick-start your development.
@@ -25,7 +29,8 @@ Please find the Guidelines for the project:
 3. Adjust your README.md to explain your project.
 4. Deploy it to Netlify for free and put the URL in the README.md.
 5. How should it look
-   [Accordion Image]()
+
+![Accordion Image](./src/assets/accordion-output.png)
 
 ## Getting Started
 
@@ -72,12 +77,28 @@ CommonJS modules can always be imported via the default export, for example usin
 
 import pkg from 'ts-jest/presets/index.js';
 const { defaults } = pkg;"
+
 Fixed: turned jest.config.js to jest-setup.ts
 
 add:
 
 import '@testing-library/jest-dom'
 ['<rootDir>/jest-setup.js']
+
+in package.json add:
+
+    "jest": {
+    "testEnvironment": "jsdom",
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest",
+      "^.+\\.(jpg|jpeg|png|gif|svg)$": "<rootDir>/node_modules/jest-transform-stub"
+    }
+  },
+  "include": [
+    "./jest-setup.ts"
+  ]
+Install 
+    npm install jest-stub --save-dev  
 
 ## Testing:
 User Event: npm install --save-dev @testing-library/user-event
