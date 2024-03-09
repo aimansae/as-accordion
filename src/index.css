@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+.card {
+  @apply flex h-screen w-screen items-center justify-center p-2;
+}
 .ReactCollapse--collapse {
   transition: height 500ms;
+}
+
+.main-div {
+  @apply h-[550px] w-[550px] items-center p-2 font-roboto;
+}
+
+.main-heading {
+  @apply border border-gray-300 bg-gray-300 p-2 text-center text-2xl font-bold;
+}
+
+.question-container {
+  @apply flex items-center border border-gray-300 bg-gray-100 px-4 py-4;
+}
+.icon {
+  @apply mr-2 transform cursor-pointer text-xl text-gray-500 transition-transform duration-300 hover:scale-125;
+}
+.answer-container {
+  @apply border border-gray-300 px-4 py-4;
 }
