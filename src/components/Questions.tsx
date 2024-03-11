@@ -29,5 +29,10 @@ export const questions = [
     answer:
       "Tailwind CSS is relatively easy to learn, especially if you're already familiar with CSS and HTML."
   },
+  {
+    question: 'Is Tailwind CSS mobile-friendly?',
+    answer:
+      'Yes, Tailwind CSS is mobile-first by default and provides responsive utility classes for building mobile-friendly layouts.'
+  },
 
 ];

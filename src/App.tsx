@@ -1,9 +1,9 @@
 import './App.css';
-import Accordion from './components/AccordionCard';
+import AccordionCard from './components/AccordionCard';
 
 function App() {
   return (
-      <Accordion/>
+      <AccordionCard/>
   );
 }
 
