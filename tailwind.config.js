@@ -8,9 +8,15 @@ export default {
     extend: {
       fontFamily:{
         roboto: ['Roboto', 'sans-serif']
+      },
+      rotate: {
+        '242': '242deg'
       }
     },
   },
   plugins: [],
+ 
 }
+  
+
 

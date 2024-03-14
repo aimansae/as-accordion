@@ -1,10 +1,7 @@
-import './App.css';
 import AccordionCard from './components/AccordionCard';
 
 function App() {
-  return (
-      <AccordionCard/>
-  );
+  return <AccordionCard />;
 }
 
 export default App;

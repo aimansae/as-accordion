@@ -122,3 +122,5 @@ git push origin master
 If needed Enter credentials to connect the IDE to Gthub
 
 Resources found on [Youtube](https://www.youtube.com/watch?v=vbQ2bYHxxEA)
+
+[Transition Resources](https://keithjgrant.com/posts/2023/04/transitioning-to-height-auto/)
