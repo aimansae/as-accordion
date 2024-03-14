@@ -1,34 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* .card {
-  @apply flex h-screen w-screen justify-center md:items-center md:p-2;
-}
-.ReactCollapse--collapse {
-  transition: height 500ms;
-} */
-
-/* .main-div {
-  @apply h-[550px] w-[550px] items-center font-roboto md:p-2;
-} */
-
-/* .main-heading {
-  @apply border border-gray-300 bg-gray-300 p-4 text-center text-2xl font-bold md:p-2;
-} */
-
-/* .question-container {
-  @apply flex  flex-col  justify-between border border-gray-300 bg-gray-100 p-6 md:p-4;
-} */
-
-/* .icon {
-  @apply mr-2 transform cursor-pointer text-xl text-gray-500 transition-transform duration-300 hover:scale-125;
-} */
-
-/* .answer-container {
-  @apply border border-gray-300 px-4 py-4;
-} */
-
-/* .icon-rotated {
-  @apply rotate-[272deg];
-} */

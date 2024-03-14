@@ -71,7 +71,7 @@ module.exports = {
 
 ## Troubleshooting
 
-While running tests encoutered error "SyntaxError: Named export 'defaults' not found. The requested module 'ts-jest/presets/index.js' is a CommonJS module, 
+While running tests encountered error "SyntaxError: Named export 'defaults' not found. The requested module 'ts-jest/presets/index.js' is a CommonJS module, 
 which may not support all module.exports as named exports. 
 CommonJS modules can always be imported via the default export, for example using:
 
@@ -102,6 +102,7 @@ Install
 
 ## Testing:
 User Event: npm install --save-dev @testing-library/user-event
+
 ## Github setup
 
 1. Create a local folder and connect it to [Github](https://github.com/)
@@ -112,14 +113,14 @@ git init
 git add .
 git commit -m ‘First commit’
 
-2. Open github and create new reposotory
+2. Open github and create new repository
 
 Copy the link and in terminal add:
 
 git remote add origin (paste the link to the Github repo here)
 git push origin master
 
-If needed Enter credentials to connect the IDE to Gthub
+If needed Enter credentials to connect the IDE to Github
 
 Resources found on [Youtube](https://www.youtube.com/watch?v=vbQ2bYHxxEA)
 
