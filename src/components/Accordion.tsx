@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react';
-
 import { GoChevronDown } from 'react-icons/go';
+
 export type AccordionItem = {
   id: string;
   summary: string;
@@ -14,7 +14,6 @@ export type AccordionProps = {
 
 const Accordion = ({ title, items }: AccordionProps) => {
   const buttonsRef = useRef<Array<HTMLButtonElement | null>>([]);
-
   const [openAnswer, setOpenAnswer] = useState<string | null>(null);
 
   const showAnswer = (id: string) => {
